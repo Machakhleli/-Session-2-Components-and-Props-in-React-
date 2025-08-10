@@ -1,7 +1,7 @@
 import HeroSection from "./hero-section/HeroSection";
 import FeatureCard from "./features/Feature-Card";
 import Features from "./features/Features-Section";
-import BlogSection from "./blog-section/blog-Section";
+import BlogSection from "./blog-section/Blog-Section";
 import PostCard from "./blog-section/Post-Card";
 import Testimonials from "./testimonials/Testimonials-Section";
 import TestimonialCard from "./testimonials/Testimonial-card";
@@ -31,13 +31,13 @@ function Main() {
       />
     ));
   return (
-    <div>
+    <main className="max-w-[75rem] mx-auto my-0">
       <HeroSection />
       <Features>{renderFeatures()}</Features>
       <BlogSection>{renderPost()}</BlogSection>
       <Testimonials>{renderTestimonials()}</Testimonials>
       <Sidebar />
-    </div>
+    </main>
   );
 }
 export default Main;

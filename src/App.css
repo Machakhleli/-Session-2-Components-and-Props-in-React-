@@ -1,12 +1,12 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
 
 /* Reset & Base */
-body {
+/* body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -26,11 +26,11 @@ h1,
 h2,
 h3 {
   margin-top: 0;
-}
+} */
 
 
 /* Layout */
-header,
+/* header,
 footer {
   background-color: #fff;
   padding: 20px;
@@ -54,11 +54,11 @@ main {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
-}
+} */
 
 
 /* Hero Section */
-.hero {
+/* .hero {
   background-color: #e9ecef;
   padding: 40px;
   text-align: center;
@@ -80,11 +80,11 @@ main {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-}
+} */
 
 
 /* Features */
-.features {
+/* .features {
   margin-bottom: 40px;
 }
 
@@ -95,11 +95,11 @@ main {
   margin: 15px 0;
   border-left: 4px solid #007bff;
   border-radius: 4px;
-}
+} */
 
 
 /* Blog Posts */
-.blog {
+/* .blog {
   margin-bottom: 40px;
 }
 
@@ -110,11 +110,11 @@ main {
   margin-bottom: 20px;
   border-left: 4px solid #28a745;
   border-radius: 4px;
-}
+} */
 
 
 /* Testimonials */
-.testimonials {
+/* .testimonials {
   margin-bottom: 40px;
 }
 
@@ -140,11 +140,11 @@ main {
 .testimonial blockquote {
   font-style: italic;
   margin: 0;
-}
+} */
 
 
 /* Sidebar */
-.sidebar {
+/* .sidebar {
   background-color: #fff;
   padding: 20px;
   margin-bottom: 40px;
@@ -157,11 +157,11 @@ main {
   max-width: 100%;
   border-radius: 4px;
   margin-bottom: 10px;
-}
+} */
 
 
 /* Footer */
-footer {
+/* footer {
   text-align: center;
   padding: 20px;
   background-color: #fff;
@@ -171,4 +171,4 @@ footer {
 
 footer nav {
   margin-top: 10px;
-}
+} */

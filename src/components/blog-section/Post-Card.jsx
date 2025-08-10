@@ -1,6 +1,6 @@
 function PostCard({ heading, content, author }) {
   return (
-    <article className="post">
+    <article className="mb-[2.5rem]">
       <h3>{heading}</h3>
       <p>{content}</p>
       <p>
